@@ -3,6 +3,7 @@ word = ("АВСТРАЛИЯ")
 dedant = 10
 game = True
 while game:
+    print (" "+"__ "*len(word))
     letter = input ("Введите букву или слово: ")
     if letter in word:
         print ("Есть такая буква!")
