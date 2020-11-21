@@ -1,6 +1,8 @@
 from random import randint
-word = ("АВСТРАЛИЯ")
-dedant = 10
+words = ["АВСТРАЛИЯ","ИНДИЯ","ДЖУБУТИ","АНГЛИЯ","ФИЛИППИНЫ"]
+random_index = randint (0, 4) 
+word = words [random_index]
+lives = 10
 game = True
 while game:
     print (" "+"__ "*len(word))
@@ -9,13 +11,13 @@ while game:
         print ("Есть такая буква!")
     else:
         print ("Не подходит.")
-        dedant = dedant - 1
-        print ("Жизни: " + str(dedant))
+        lives = lives - 1
+        print ("Жизни: " + str(lives))
         
     if letter == word:
         print ("ТЫ ПОБЕДИЛ! Игра окончена")
         game = False
-    if dedant == 0:
+    if lives == 0:
         print ("Ты проиграл...")
         game = False
     
