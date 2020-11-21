@@ -14,4 +14,7 @@ while game:
     if letter == word:
         print ("ТЫ ПОБЕДИЛ! Игра окончена")
         game = False
+    if dedant == 0:
+        print ("Ты проиграл...")
+        game = False
     
