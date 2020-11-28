@@ -6,7 +6,15 @@ game = True
 lives = 10 
 letters = []
 while game:
-    print(" "+"___ "*len(word))
+    mark = 0
+    MarkPrinting = ''
+    while mark < len(word):
+        if word[mark] in letters:
+            MarkPrinting = MarkPrinting + word[mark]
+        else:
+            MarkPrinting = MarkPrinting + " __ "
+        mark = mark + 1
+    print (MarkPrinting)    
     letter = input("Введите букву или слово: ")
 
     if len(letter)<1:
@@ -27,10 +35,10 @@ while game:
             print("ТЫ ПОБЕДИЛ! Игра окончена.")
         else:
             print("Не угадал! Игра окончена, ТЫ ПРОИГРАЛ")
-            print("Слово было", word)
+            print("Слово было ", word, ".")
         game = False
     print("Осталось", lives, "жизней", "Угаданные буквы: ", letters)
     if lives == 0:
         print("Жизни закончились, ты проиграл")
-        print("Слово было", word)
+        print("Слово было ", word, ".")
         game = False
