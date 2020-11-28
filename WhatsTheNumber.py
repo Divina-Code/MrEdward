@@ -14,7 +14,7 @@ while gameover != True:
     if a > computer_number:
         lives = lives - 1
         print ("Too big. lives: ", lives)
-    else:
+    if a < computer_number:
         lives = lives - 1
         print("Too small. lives: ", lives)
     if lives == 0:
