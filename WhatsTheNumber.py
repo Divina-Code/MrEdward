@@ -1,8 +1,8 @@
 
 from random import randint
 gameover = False
-computer_number = randint (1,1000000)
-lives = 50
+computer_number = randint (1,15)
+lives = 10
 while gameover != True:
     print ()
     a = int(input("What's the number?: "))
