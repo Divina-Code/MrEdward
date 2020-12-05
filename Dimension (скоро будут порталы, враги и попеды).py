@@ -1,3 +1,7 @@
+gameover = False
+pos = 12
+print ("Управление: w+enter, a+enter, s+enter, d+enter")
+while gameover != True:
     if pos == 1:
         print ("WWWWWWWWWWWW")
         print ("WP         W")
