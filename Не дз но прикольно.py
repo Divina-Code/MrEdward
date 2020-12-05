@@ -55,19 +55,7 @@ while gameover != True:
         if move == ("d"):
             pos = pos + 1
     if pos == 7:
-        print ("WWWWWWWWWWWW")
-        print ("W      P   W")
-        print ("W          W")
-        print ("W          W")
-        print ("W       E  W")
-        print ("W          W")
-        print ("W          W")
-        print ("W          W")
-        print ("W          W")
-        print ("W          W")
-        print ("W          W")
-        print ("WWWWWWWWWWWW")
-        print (" ")
+        print ("WWWWWWWWWWWW \nW      P   W \nW          W \nW          W \nW       E  W \nW          W \nW          W \nW          W \nW   E      W \nW        S W \nW          W \nWWWWWWWWWWWW \n ")
         move = input("  ")
         if move == ("a"):
             pos = pos - 1
@@ -76,19 +64,7 @@ while gameover != True:
         if move == ("d"):
             pos = pos + 1
     if pos == 8:
-        print ("WWWWWWWWWWWW")
-        print ("W       P  W")
-        print ("W          W")
-        print ("W          W")
-        print ("W       E  W")
-        print ("W          W")
-        print ("W          W")
-        print ("W          W")
-        print ("W          W")
-        print ("W          W")
-        print ("W          W")
-        print ("WWWWWWWWWWWW")
-        print (" ")
+        print ("WWWWWWWWWWWW \nW      P   W \nW          W \nW          W \nW       E  W \nW          W \nW          W \nW          W \nW   E      W \nW        S W \nW          W \nWWWWWWWWWWWW \n ")
         move = input("  ")
         if move == ("a"):
             pos = pos - 1
