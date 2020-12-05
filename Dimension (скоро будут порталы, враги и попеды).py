@@ -1,16 +1,36 @@
-gameover = False
-pos = 12
-print ("Welcome to Dimension: New Dawn 1.1.1. \nThe controls are: w+enter, a+enter, s+enter, d+enter \n(For now you can't use capitals...)")
-while gameover != True:
     if pos == 1:
-        print ("WWWWWWWWWWWW \nWP         W \nW          W \nW          W \nW       E  W \nW          W \nW          W \nW          W \nW   E      W \nW        S W \nW          W \nWWWWWWWWWWWW \n ")
+        print ("WWWWWWWWWWWW")
+        print ("WP         W")
+        print ("W          W")
+        print ("W          W")
+        print ("W       E  W")
+        print ("W          W")
+        print ("W          W")
+        print ("W          W")
+        print ("W   E      W")
+        print ("W        S W")
+        print ("W          W")
+        print ("WWWWWWWWWWWW")
+        print (" ")
         move = input("  ")
         if move == ("s"):
             pos = pos + 10
         if move == ("d"):
             pos = pos + 1
     if pos == 2:
-        print ("WWWWWWWWWWWW \nW P        W \nW          W \nW          W \nW       E  W \nW          W \nW          W \nW          W \nW   E      W \nW        S W \nW          W \nWWWWWWWWWWWW \n ")
+        print ("WWWWWWWWWWWW")
+        print ("W P        W")
+        print ("W          W")
+        print ("W          W")
+        print ("W       E  W")
+        print ("W          W")
+        print ("W          W")
+        print ("W          W")
+        print ("W   E      W")
+        print ("W        S W")
+        print ("W          W")
+        print ("WWWWWWWWWWWW")
+        print (" ")
         move = input("  ")
         if move == ("a"):
             pos = pos - 1
@@ -19,7 +39,19 @@ while gameover != True:
         if move == ("d"):
             pos = pos + 1
     if pos == 3:
-        print ("WWWWWWWWWWWW \nW  P       W \nW          W \nW          W \nW       E  W \nW          W \nW          W \nW          W \nW   E      W \nW        S W \nW          W \nWWWWWWWWWWWW \n ")
+        print ("WWWWWWWWWWWW")
+        print ("W  P       W")
+        print ("W          W")
+        print ("W          W")
+        print ("W       E  W")
+        print ("W          W")
+        print ("W          W")
+        print ("W          W")
+        print ("W          W")
+        print ("W          W")
+        print ("W          W")
+        print ("WWWWWWWWWWWW")
+        print (" ")
         move = input("  ")
         if move == ("a"):
             pos = pos - 1
@@ -28,7 +60,19 @@ while gameover != True:
         if move == ("d"):
             pos = pos + 1
     if pos == 4:
-        print ("WWWWWWWWWWWW \nW   P      W \nW          W \nW          W \nW       E  W \nW          W \nW          W \nW          W \nW   E      W \nW        S W \nW          W \nWWWWWWWWWWWW \n ")
+        print ("WWWWWWWWWWWW")
+        print ("W   P      W")
+        print ("W          W")
+        print ("W          W")
+        print ("W       E  W")
+        print ("W          W")
+        print ("W          W")
+        print ("W          W")
+        print ("W          W")
+        print ("W          W")
+        print ("W          W")
+        print ("WWWWWWWWWWWW")
+        print (" ")
         move = input("  ")
         if move == ("a"):
             pos = pos - 1
@@ -37,7 +81,19 @@ while gameover != True:
         if move == ("d"):
             pos = pos + 1
     if pos == 5:
-        print ("WWWWWWWWWWWW \nW    P     W \nW          W \nW          W \nW       E  W \nW          W \nW          W \nW          W \nW   E      W \nW        S W \nW          W \nWWWWWWWWWWWW \n ")
+        print ("WWWWWWWWWWWW")
+        print ("W    P     W")
+        print ("W          W")
+        print ("W          W")
+        print ("W       E  W")
+        print ("W          W")
+        print ("W          W")
+        print ("W          W")
+        print ("W          W")
+        print ("W          W")
+        print ("W          W")
+        print ("WWWWWWWWWWWW")
+        print (" ")
         move = input("  ")
         if move == ("a"):
             pos = pos - 1
@@ -46,7 +102,19 @@ while gameover != True:
         if move == ("d"):
             pos = pos + 1
     if pos == 6:
-        print ("WWWWWWWWWWWW \nW     P    W \nW          W \nW          W \nW       E  W \nW          W \nW          W \nW          W \nW   E      W \nW        S W \nW          W \nWWWWWWWWWWWW \n ")
+        print ("WWWWWWWWWWWW")
+        print ("W     P    W")
+        print ("W          W")
+        print ("W          W")
+        print ("W       E  W")
+        print ("W          W")
+        print ("W          W")
+        print ("W          W")
+        print ("W          W")
+        print ("W          W")
+        print ("W          W")
+        print ("WWWWWWWWWWWW")
+        print (" ")
         move = input("  ")
         if move == ("a"):
             pos = pos - 1
@@ -761,7 +829,7 @@ while gameover != True:
         print ("W          W")
         print ("WWWWWWWWWWWW")
         print (" ")
-        print ("You lost.")
+        print ("Ты проиграл.")
         gameover = True
     if pos == 39:
         print ("WWWWWWWWWWWW")
@@ -1830,7 +1898,7 @@ while gameover != True:
         print ("W          W")
         print ("W          W")
         print ("W          W")
-        print ("W       E  W")
+        print ("W          W")
         print ("W          W")
         print ("W          W")
         print ("W          W")
@@ -1853,7 +1921,7 @@ while gameover != True:
         print ("W          W")
         print ("W          W")
         print ("W          W")
-        print ("W       E  W")
+        print ("W          W")
         print ("W          W")
         print ("W          W")
         print ("W          W")
@@ -1876,7 +1944,7 @@ while gameover != True:
         print ("W          W")
         print ("W          W")
         print ("W          W")
-        print ("W       E  W")
+        print ("W          W")
         print ("W          W")
         print ("W          W")
         print ("W          W")
@@ -1899,7 +1967,7 @@ while gameover != True:
         print ("W          W")
         print ("W          W")
         print ("W          W")
-        print ("W       E  W")
+        print ("W          W")
         print ("W          W")
         print ("W          W")
         print ("W          W")
@@ -1922,7 +1990,7 @@ while gameover != True:
         print ("W          W")
         print ("W          W")
         print ("W          W")
-        print ("W       E  W")
+        print ("W          W")
         print ("W          W")
         print ("W          W")
         print ("W          W")
@@ -1943,7 +2011,7 @@ while gameover != True:
         print ("W          W")
         print ("W          W")
         print ("W          W")
-        print ("W       E  W")
+        print ("W          W")
         print ("W          W")
         print ("W          W")
         print ("W          W")
@@ -1962,7 +2030,7 @@ while gameover != True:
         print ("W          W")
         print ("W          W")
         print ("W          W")
-        print ("W       E  W")
+        print ("W          W")
         print ("W          W")
         print ("W          W")
         print ("W          W")
@@ -1983,7 +2051,7 @@ while gameover != True:
         print ("W          W")
         print ("W          W")
         print ("W          W")
-        print ("W       E  W")
+        print ("W          W")
         print ("W          W")
         print ("W          W")
         print ("W          W")
@@ -2004,7 +2072,7 @@ while gameover != True:
         print ("W          W")
         print ("W          W")
         print ("W          W")
-        print ("W       E  W")
+        print ("W          W")
         print ("W          W")
         print ("W          W")
         print ("W          W")
@@ -2025,7 +2093,7 @@ while gameover != True:
         print ("W          W")
         print ("W          W")
         print ("W          W")
-        print ("W       E  W")
+        print ("W          W")
         print ("W          W")
         print ("W          W")
         print ("W          W")
@@ -2046,7 +2114,7 @@ while gameover != True:
         print ("W          W")
         print ("W          W")
         print ("W          W")
-        print ("W       E  W")
+        print ("W          W")
         print ("W          W")
         print ("W          W")
         print ("W          W")
@@ -2067,7 +2135,7 @@ while gameover != True:
         print ("W          W")
         print ("W          W")
         print ("W          W")
-        print ("W       E  W")
+        print ("W          W")
         print ("W          W")
         print ("W          W")
         print ("W          W")
@@ -2088,7 +2156,7 @@ while gameover != True:
         print ("W          W")
         print ("W          W")
         print ("W          W")
-        print ("W       E  W")
+        print ("W          W")
         print ("W          W")
         print ("W          W")
         print ("W          W")
@@ -2109,7 +2177,7 @@ while gameover != True:
         print ("W          W")
         print ("W          W")
         print ("W          W")
-        print ("W       E  W")
+        print ("W          W")
         print ("W          W")
         print ("W          W")
         print ("W          W")
@@ -2130,7 +2198,7 @@ while gameover != True:
         print ("W          W")
         print ("W          W")
         print ("W          W")
-        print ("W       E  W")
+        print ("W          W")
         print ("W          W")
         print ("W          W")
         print ("W          W")
