@@ -1,10 +1,10 @@
 from random import randint
 print("добро пожаловать в игру 21")
-eee = int(input("Сколько игроков будет?"))
+eee = int(input("Сколько игроков будет?\t"))
 print()
 players = []
 for yeet in range(eee):
-    name = input("Введите имя " +str(yeet+1)+"-го игрока:" )
+    name = input("Введите имя " +str(yeet+1)+"-го игрока:\t" )
     players.append(name)
 pointss = []
 for points in range(eee):
