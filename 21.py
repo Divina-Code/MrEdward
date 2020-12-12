@@ -29,7 +29,7 @@ while game:
         elif answer == "НЕТ":
             pass
         else:
-            print("А я не понял так да или нет? \n")
+            print("А я не понял так да или нет? \n") 
 
 
 
