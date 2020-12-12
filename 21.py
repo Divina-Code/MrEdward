@@ -24,6 +24,7 @@ while game:
             pass
         else:
             print("А я не понял так да или нет? \n")
-
-
-
+    print("__________________________________________")
+    for why in range(eee):
+        print(players[why],"У вас очков:", pointss[why])
+    print("__________________________________________")
