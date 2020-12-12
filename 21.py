@@ -3,7 +3,7 @@ print("добро пожаловать в игру 21")
 eee = int(input("Сколько будет игроков? "))
 players = []
 for yeet in range(eee):
-    name = input("Введите имя " +str(yeet+1)+"-го игрока:\t" )
+    name = input("Введите имя " +str(yeet+1)+"-го игрока: " )
     players.append(name)
 print("Игроки: ", players)
 pointss = []
