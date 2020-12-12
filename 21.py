@@ -1,12 +1,6 @@
 from random import randint
 print("добро пожаловать в игру 21")
 eee = int(input("Сколько будет игроков? "))
-print()
-players = []
-for yeet in range(eee):
-    name = input("Введите имя " +str(yeet+1)+"-го игрока: " )
-eee = int(input("Сколько игроков будет?\t"))
-print()
 players = []
 for yeet in range(eee):
     name = input("Введите имя " +str(yeet+1)+"-го игрока:\t" )
@@ -29,7 +23,7 @@ while game:
         elif answer == "НЕТ":
             pass
         else:
-            print("А я не понял так да или нет? \n") 
+            print("А я не понял так да или нет? \n")
 
 
 
