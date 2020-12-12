@@ -5,6 +5,11 @@ print()
 players = []
 for yeet in range(eee):
     name = input("Введите имя " +str(yeet+1)+"-го игрока: " )
+eee = int(input("Сколько игроков будет?\t"))
+print()
+players = []
+for yeet in range(eee):
+    name = input("Введите имя " +str(yeet+1)+"-го игрока:\t" )
     players.append(name)
 print("Игроки: ", players)
 pointss = []
