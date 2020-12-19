@@ -19,7 +19,8 @@ while game:
         answer = answer.upper()
         answer = answer.strip()
         if answer == "ДА":
-            pass
+            pointss[a] = pointss[a] + randint (1,10)
+
         elif answer == "НЕТ":
             pass
         else:
